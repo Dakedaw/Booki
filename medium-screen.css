@@ -1,0 +1,122 @@
+body {
+  width: 91%;
+}
+
+#logo {
+  width: 25%;
+}
+
+form {
+  width: 50%;
+}
+
+#location {
+  flex: 2%;
+}
+
+label {
+  flex: 10%;
+}
+
+.label-text {
+  display: none !important;
+}
+
+#filter-container {
+  margin-top: 15px;
+}
+
+.filter-title {
+  padding-right: 5px;
+}
+
+.filter {
+  margin: 5px;
+  height: 50px;
+}
+
+.filter-text {
+  padding: 4px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  box-sizing: border-box;
+}
+
+#hebergements {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#hebergements a {
+  width: 48%;
+}
+
+#populaires {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.pop-container {
+  width: 60%;
+}
+
+#activites {
+  width: 100%;
+}
+
+.activite {
+  width: 104%;
+  padding: 5px;
+}
+
+.activite h3 {
+  padding-bottom: 0;
+}
+
+#container-activite {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  box-sizing: border-box;
+}
+
+#activites a {
+  width: 48%;
+  height: 252px;
+}
+
+.pics {
+  width: 100%;
+  height: 150px;
+}
+
+.pic {
+  width: 100%;
+  height: 150px;
+}
+
+.column {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 104%;
+  column-gap: 90px;
+}
+
+footer div {
+  padding: 0;
+}

@@ -1,0 +1,148 @@
+#container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*  ----- Hébergements ----- */
+
+#hebergements {
+  background-color: #f2f2f2;
+  width: 65%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+#container-hebergements {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  box-sizing: border-box;
+}
+
+#hebergements a {
+  width: 300px;
+}
+
+.hebergement {
+  background-color: white;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+.pic-container {
+  width: 100%;
+  height: 150px;
+}
+
+.hebergement img {
+  width: 100%;
+  height: 150px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.hebergement-text {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+.hebergement-text > * {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.afficher {
+  font-weight: bold;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.fa-star {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.blue-star {
+  color: #0065fc;
+}
+
+.grey-star {
+  color: lightgrey;
+}
+
+/*  ----- Populaires -----  */
+
+#populaires {
+  width: 28%;
+  background-color: #f2f2f2;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.title-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.fa-arrow-trend-up {
+  padding-top: 25px;
+  padding-right: 5px;
+  font-size: x-large;
+}
+
+#container-populaires {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.pop-container {
+  width: 40%;
+  height: 175px;
+}
+
+.populaire img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  width: 100%;
+  height: 175px;
+  object-fit: cover;
+}
+
+.populaire {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.pop-text {
+  padding-left: 25px;
+  width: 60%;
+}
+
+.pop-text h3 {
+  margin-bottom: -7px;
+}
+
+.stars {
+  margin-top: 75px;
+}
+
+.star {
+  margin-top: 55px;
+}

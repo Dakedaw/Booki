@@ -1,0 +1,197 @@
+body {
+  width: 96%;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+#logo-container {
+  width: 100%;
+  text-align: center;
+}
+
+#logo {
+  width: 30%;
+}
+
+nav {
+  width: 100%;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav ul li {
+  flex: 1;
+  border-bottom: 3px solid #f2f2f2;
+}
+
+nav ul li:hover {
+  border-top: none;
+  border-bottom: 3px solid #0065fc;
+}
+
+nav ul li a:hover {
+  color: #0065fc;
+}
+
+h1 {
+  font-size: large;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+form {
+  width: 100%;
+  margin-top: 25px;
+  height: 45px;
+}
+
+#location {
+  flex: 15%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.search {
+  flex: 70%;
+  border-top: 2px solid #f2f2f2;
+  border-left: 2px solid #f2f2f2;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+label {
+  flex: 15%;
+  border-radius: 10px;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label-text {
+  display: none;
+}
+
+#filter-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+#flex-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0;
+}
+
+.filter {
+  margin: 5px;
+}
+
+.filter-text {
+  width: 20%;
+  padding: 10px;
+}
+
+.info {
+  margin-top: 15px;
+}
+
+#container {
+  margin-top: 300px;
+}
+
+#container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#hebergements {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+#container-hebergements {
+  row-gap: 20px;
+}
+
+#container-hebergements a {
+  width: 100%;
+}
+
+.hebergement {
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+#container-populaires {
+  row-gap: 20px;
+}
+
+#populaires {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 0;
+  margin-top: -60px;
+}
+
+#activites {
+  width: 100%;
+  height: 100%;
+  margin-top: -25px;
+}
+
+#container-activites {
+  display: flex;
+  flex-direction: column;
+}
+
+#container-activites a {
+  width: 100%;
+}
+
+.activite {
+  width: 97%;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.pics {
+  width: 100%;
+  height: 150px;
+}
+
+.pic {
+  width: 100%;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.propos {
+  padding-left: 0;
+}
+
+footer div {
+  padding-left: 40px;
+}

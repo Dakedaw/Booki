@@ -1,0 +1,112 @@
+/*  ----- Activités -----  */
+
+#activites {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+  box-sizing: border-box;
+}
+
+#container-activites {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#activites a {
+  width: 340px;
+}
+
+.activite {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px lightgrey;
+}
+
+.large-pics {
+  width: 100%;
+  height: 420px;
+}
+
+.medium-pics {
+  width: 100%;
+  height: 210px;
+}
+
+.small-pics {
+  width: 100%;
+  height: 105px;
+}
+
+.large-pic {
+  width: 100%;
+  height: 420px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.medium-pic {
+  width: 100%;
+  height: 210px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.small-pic {
+  width: 100%;
+  height: 105px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activite h3 {
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+
+/*  ----- Footer -----  */
+
+footer {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 250px;
+  margin-top: 20px;
+}
+
+.propos {
+  margin-left: 40px;
+}
+
+footer div {
+  padding: 20px;
+}
+
+footer div h3 {
+  margin-top: 20px;
+}
+
+footer div ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer div ul li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
